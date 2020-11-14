@@ -1,0 +1,18 @@
+﻿@model WXSM.ViewModel.WX.TradeOrderVMs.TradeOrderImportVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+    <wt:row items-per-row="ItemsPerRowEnum.Two">
+        <wt:combobox field="Mall" />
+        <wt:combobox field="OutOption" />
+    </wt:row>
+    @*<wt:row align="AlignEnum.Right">
+        <wt:downloadTemplateButton vm="@Model" />
+    </wt:row>*@
+    <wt:upload field="UploadFileId" label-text="@Model.Localizer["UploadTemplate"]" upload-type="AllFiles" />
+    <wt:grid vm="ErrorListVM" use-local-data="true" hidden-checkbox="true" hidden-grid-index="true" hidden-panel="true"  height="300"/>
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

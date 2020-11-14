@@ -1,0 +1,10 @@
+﻿@model WXSM.ViewModel.WX.ShopTradeItemVMs.ShopTradeItemListVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:searchpanel vm="@Model" reset-btn="true">
+<wt:row items-per-row="ItemsPerRowEnum.Three">
+<wt:combobox field="Searcher.itemId" items="Searcher.Allitems" empty-text="@Localizer["All"]" />
+<wt:combobox field="Searcher.OrderID" items="Searcher.AllOrders" empty-text="@Localizer["All"]" />
+</wt:row>
+</wt:searchpanel>
+<wt:grid vm="@Model" url="/WX/ShopTradeItem/Search"/>

@@ -1,0 +1,26 @@
+﻿@model WXSM.ViewModel.WX.TradeOrderVMs.TradeOrderVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+	<wt:quote>@Model.Localizer["DeleteConfirm"]</wt:quote>
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:display field="Entity.Status" />
+<wt:display field="Entity.outerTrade" />
+<wt:display field="Entity.SType" />
+<wt:display field="Entity.purchaseTime" />
+<wt:display field="Entity.listPrice" />
+<wt:display field="Entity.DType" />
+<wt:display field="Entity.wayBill" />
+<wt:display field="Entity.StockOutOption" />
+<wt:display field="Entity.maxDeliveryTime" />
+<wt:display field="Entity.salePrice" />
+<wt:display field="Entity.deliveryFee" />
+<wt:display field="Entity.tradeConsignee.ConsigneeInfo" />
+<wt:display field="Entity.VType" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton theme=" ButtonThemeEnum.Warm" text="删除"/>
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

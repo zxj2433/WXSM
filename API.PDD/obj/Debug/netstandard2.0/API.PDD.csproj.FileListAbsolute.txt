@@ -1,0 +1,12 @@
+C:\Users\admin\Source\Repos\MIMS\API.PDD\bin\Debug\netstandard2.0\API.PDD.deps.json
+C:\Users\admin\Source\Repos\MIMS\API.PDD\bin\Debug\netstandard2.0\API.PDD.dll
+C:\Users\admin\Source\Repos\MIMS\API.PDD\bin\Debug\netstandard2.0\API.PDD.pdb
+C:\Users\admin\Source\Repos\MIMS\API.PDD\bin\Debug\netstandard2.0\HttpHelper.dll
+C:\Users\admin\Source\Repos\MIMS\API.PDD\bin\Debug\netstandard2.0\HttpHelper.pdb
+C:\Users\admin\Source\Repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.csprojAssemblyReference.cache
+C:\Users\admin\Source\Repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.AssemblyInfoInputs.cache
+C:\Users\admin\Source\Repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.AssemblyInfo.cs
+C:\Users\admin\Source\Repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.csproj.CopyComplete
+C:\Users\admin\Source\Repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.dll
+C:\Users\admin\Source\Repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.pdb
+C:\Users\admin\source\repos\MIMS\API.PDD\obj\Debug\netstandard2.0\API.PDD.csproj.CoreCompileInputs.cache

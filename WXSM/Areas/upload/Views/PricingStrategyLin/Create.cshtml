@@ -1,0 +1,17 @@
+﻿@model WXSM.ViewModel.upload.PricingStrategyLinVMs.PricingStrategyLinVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.One">
+<wt:combobox field="Entity.PSID" items="AllPSs"/>
+<wt:textbox field="Entity.MinCost" />
+<wt:textbox field="Entity.MaxCost" />
+<wt:textbox field="Entity.ShopCommission" />
+<wt:combobox field="Entity.CT" />
+<wt:textbox field="Entity.OwnCommission" />
+</wt:row>
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

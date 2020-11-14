@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ktKo1T23IyRO5pBXwuRu6Fd1eIIGDCKc5FSMdUODeE6PJ2ZJhMVVyUGm14bX9C236kiT6C5cZi44spQN66wzQ==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\admin\\Source\\Repos\\WXSM\\API.PDD\\API.PDD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.encoding.codepages\\4.7.1\\system.text.encoding.codepages.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

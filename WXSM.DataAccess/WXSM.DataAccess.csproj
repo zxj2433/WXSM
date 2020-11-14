@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20200804142158_up202008042221.cs" />
+    <Compile Remove="Migrations\20200804142158_up202008042221.Designer.cs" />
+    <Compile Remove="Migrations\20200805104531_up202008051845.cs" />
+    <Compile Remove="Migrations\20200805104531_up202008051845.Designer.cs" />
+    <Compile Remove="Migrations\20200805105259_up202008051845.cs" />
+    <Compile Remove="Migrations\20200805105259_up202008051845.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WXSM.Model\WXSM.Model.csproj" />
+    <Content Include="DataContext.cs" />
+  </ItemGroup>
+</Project>

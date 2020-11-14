@@ -1,0 +1,15 @@
+﻿@model WXSM.ViewModel.System.SysParVMs.SysParVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:combobox field="Entity.parTitle" />
+<wt:textbox field="Entity.parValue" />
+<wt:textbox field="Entity.remark" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

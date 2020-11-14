@@ -1,0 +1,25 @@
+﻿@model WXSM.ViewModel.WX.TradeOrderVMs.TradeOrderVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:combobox field="Entity.Status" />
+<wt:textbox field="Entity.outerTrade" />
+<wt:combobox field="Entity.SType" />
+<wt:datetime field="Entity.purchaseTime" />
+<wt:textbox field="Entity.listPrice" />
+<wt:combobox field="Entity.DType" />
+<wt:textbox field="Entity.wayBill" />
+<wt:combobox field="Entity.StockOutOption" />
+<wt:datetime field="Entity.maxDeliveryTime" />
+<wt:textbox field="Entity.salePrice" />
+<wt:textbox field="Entity.deliveryFee" />
+<wt:combobox field="Entity.tradeConsigneeID" items="AlltradeConsignees"/>
+<wt:combobox field="Entity.VType" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

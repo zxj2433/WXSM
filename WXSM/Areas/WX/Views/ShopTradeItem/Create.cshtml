@@ -1,0 +1,17 @@
+﻿@model WXSM.ViewModel.WX.ShopTradeItemVMs.ShopTradeItemVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:textbox field="Entity.outItemId" />
+<wt:combobox field="Entity.itemID" items="Allitems"/>
+<wt:textbox field="Entity.salePrice" />
+<wt:textbox field="Entity.listPrice" />
+<wt:textbox field="Entity.purchaseQuantity" />
+<wt:combobox field="Entity.OrderID" items="AllOrders"/>
+</wt:row>
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

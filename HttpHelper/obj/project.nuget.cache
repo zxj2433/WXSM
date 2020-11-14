@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hog9cPuh7YJIFRR6vU67dHKPSvVNZvfqEZhynucApvwwT1QiNTU55xGEIi8LcKypqXdHp0rtHY93VqOEH0xYFA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\admin\\Source\\Repos\\WXSM\\HttpHelper\\HttpHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.encoding.codepages\\4.7.1\\system.text.encoding.codepages.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

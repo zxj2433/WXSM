@@ -1,0 +1,15 @@
+﻿@model WXSM.ViewModel.WX.OperateCategorieVMs.OperateCategorieVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:textbox field="Entity.oc_code" />
+<wt:textbox field="Entity.oc_name" />
+<wt:textbox field="Entity.parent_code" />
+<wt:switch field="Entity.parent" />
+</wt:row>
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton />
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

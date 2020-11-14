@@ -1,0 +1,19 @@
+﻿@model WXSM.ViewModel.upload.PricingStrategyLinVMs.PricingStrategyLinVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+	<wt:quote>@Model.Localizer["DeleteConfirm"]</wt:quote>
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:display field="Entity.PS.StrategyName" />
+<wt:display field="Entity.MinCost" />
+<wt:display field="Entity.MaxCost" />
+<wt:display field="Entity.ShopCommission" />
+<wt:display field="Entity.CT" />
+<wt:display field="Entity.OwnCommission" />
+</wt:row>
+    <wt:hidden field="Entity.ID" />
+    <wt:row align="AlignEnum.Right">
+        <wt:submitbutton theme=" ButtonThemeEnum.Warm" text="删除"/>
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

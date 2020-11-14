@@ -1,0 +1,27 @@
+﻿@model WXSM.ViewModel.WX.ShopItemVMs.ShopItemVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:form vm="@Model">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+<wt:display field="Entity.item_id" />
+<wt:display field="Entity.out_item_id" />
+<wt:display field="Entity.title" />
+<wt:display field="Entity.selling_points" />
+<wt:display field="Entity.freight_free" />
+<wt:display field="Entity.freight" />
+<wt:display field="Entity.presell" />
+<wt:display field="Entity.presell_time" />
+<wt:display field="Entity.on_shelf" />
+<wt:display field="Entity.stock" />
+<wt:display field="Entity.list_price" />
+<wt:display field="Entity.complex_type" />
+<wt:display field="Entity.barcode" />
+<wt:display field="Entity.oc_code" />
+<wt:display field="Entity.oc_name" />
+<wt:display field="Entity.sc_code" />
+<wt:display field="Entity.sc_name" />
+</wt:row>
+    <wt:row align="AlignEnum.Right">
+        <wt:closebutton />
+    </wt:row>
+</wt:form>

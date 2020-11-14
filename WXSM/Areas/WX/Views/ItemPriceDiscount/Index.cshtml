@@ -1,0 +1,9 @@
+﻿@model WXSM.ViewModel.WX.ItemPriceDiscountVMs.ItemPriceDiscountListVM
+@inject IStringLocalizer<WalkingTec.Mvvm.Core.Program> Localizer;
+
+<wt:searchpanel vm="@Model" reset-btn="true">
+<wt:row items-per-row="ItemsPerRowEnum.Two">
+    <wt:textbox field="Searcher.SearchTxt" empty-text="请输入书号或者书名查询" />
+</wt:row>
+</wt:searchpanel>
+<wt:grid vm="@Model" url="/WX/ItemPriceDiscount/Search"/>

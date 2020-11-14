@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WXSM.Model\WXSM.Model.csproj" />
+    <Content Include="WX\ShopItemVMs\ShopItemBatchVM.cs" />
+  </ItemGroup>
+</Project>
